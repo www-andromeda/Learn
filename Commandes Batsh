@@ -1,0 +1,122 @@
+Commandes Batsh pour Windows 10 :
+
+Commandes principales :
+ECHO : affiche le texte des commandes exécutées à l’écran
+@ECHO OFF : masque le texte des commandes exécutées à l’écran
+START : exécute un fichier avec l’application standard
+REM : indique une ligne de commentaire
+MKDIR/RMDIR : crée ou supprime un répertoire
+DEL : supprime le/les fichier(s) sélectionné(s)
+COPY : copie le/les fichier(s) sélectionné(s)
+TITLE : traite le titre de la fenêtre CMD
+ASSOC : Affichage ou modification de l’extension du fichier (par ex. .txt ou .jpg)
+
+Toutes :
+ATTRIB :Affichage ou modification des caractéristiques du fichier (par ex. taille du fichier, date de modification, emplacement de sauvegarde)
+CACLS : Affichage ou modification des listes de contrôle d’accès (droits d’accès) pour les fichiers
+CALL : Consultation d’un fichier batch dans un autre fichier
+CD :Passage à un autre répertoire ou à un autre dossier
+CHCP : Affichage ou modification de la page de code actuelle ou de la table de caractères (angl. « Character Map »)
+CHDIR : Changement de répertoire ou affichage de son nom
+CHKDSK : Recherche d’erreurs sur les disques durs
+CHKNTFS : Affichage ou modification de la vérification du disque dur lors du démarrage du système
+CHOICE :Permet des interrogations totales ou des questions à choix multiple A/B/C/D incluant la valeur retournée
+CIPHER : Permet de crypter des répertoires (en partitions du type NTFS) ou d’afficher le cryptage sous-jacent
+CLS :Suppression de tout le contenu à l’écran
+CMD : Lancement de l’invite de commandes
+CMSTP : Permet d’installer des profils dans le gestionnaire de connexions
+COLOR : Modifier la couleur d’arrière-plan de la console actuelle
+COMP : Compare le contenu de deux fichiers ou plus
+COMPACT : Affichage ou modification de la compression des fichiers dans des partitions de type NTFS
+CONVERT :Conversion de disques FAT en NTFS
+COPY : Permet de copier des fichiers
+CSCRIPT :Lancement de l’interpréteur pour VBScript/JScript
+DATE : Affichage et modification de la date/de l’heure système
+DEFRAG : Permet la défragmentation de disques
+DEL : Suppression de fichiers individuels
+DIR : Affichage de l’ensemble du contenu du répertoire
+DISKCOMP : Comparaison du contenu de deux disquettes différentes
+DISKPART : Permet de gérer les disques directement dans la console
+DISM :  permet de lister, d’installer, de désinstaller, de configurer ou de mettre à jour les fonctionnalités et les paquets des images Windows.
+DOSKEY : Création de macros, rappel de commandes déjà saisies et édition de la commande saisie
+DRIVERQUERY : Affichage du pilote des appareils installés sur l’ordinateur
+ECHO : Affichage des messages dans la console ainsi qu’activation/désactivation de l’affichage des commandes
+ENDLOCAL : Met fin à une session démarrée avec setlocal
+ERASE : Suppression d’un ou plusieurs fichiers
+ERRORLEVEL : Affiche si une commande a été exécutée avec succès ou non (0 pour oui, 1 pour non)
+EVENCREATE: Inscription dans le registre/journal des événements
+EXIST : Vérifie si un fichier existe
+EXIT : Met fin à un fichier batch ou à l’invite de commandes
+EXPAND : Décompresse les fichiers ou les classeurs compressés
+FC : Comparaison de différentes données et affichage des divergences
+FIND : Recherche d’un ou plusieurs fichiers via la saisie de caractères
+FINDSTR : Recherche des séquences de caractères dans un fichier, par ex. dans le nom de fichier ou dans un texte
+FOR : Crée une boucle for() qui interroge les commandes les unes après les autres à la fréquence indiquée entre parenthèses
+FORMAT : Permet le formatage d’un disque
+FSUTIL : Affichage et configuration des propriétés d’un système de fichiers
+FTP : Permet le chargement/téléchargement de fichiers via FTP (File Transfer Protocol) par ex. sur un serveur
+FTYPE : Affichage des types de fichiers et de leur attribution
+GETMAC : Affichage des adresses MAC (identification d’un appareil) des adaptateurs réseau (locaux ou à distance)
+GOTO : Permet d’aller directement à un endroit précis dans un fichier batch
+GRPRESULT : Affichage de directives de groupe appliquées sur un ordinateur ou par un utilisateur précis
+GPUDATE : Permet la mise à jour des directives de groupe
+GRAFTABL : Affichage des caractères spéciaux en mode graphique
+HELP : Affichage de toutes les commandes cmd dans la console
+HOSTNAME : Affichage du nom de l’ordinateur
+ICACLS : Permet d’afficher, de modifier, de sauvegarder ou de rétablir les listes de contrôle d’accès ou la gestion des accès pour les fichiers et les répertoires
+IF : Permet d’intégrer des conditions au sein des fichiers batch, de façon similaire à JavaScript par exemple.
+IPCONFIG : Configuration des paramètres réseau IP
+IRFTP : Envoi d’un fichier à l’interface infrarouge
+LABEL : Modification du nom d’un disque
+LOGMAN : Gestion du service « Journaux de performance et avertissements »
+MKDIR : Création d’un répertoire
+MMC : Interrogation de la console de gestion
+MODE : Configuration des interfaces et des appareils du système
+MORE : Affichage page par page des données sur l’écran
+MOUNTVOL : Crée, supprime et liste un point de montage du volume
+MOVE : Permet de renommer ou déplacer des fichiers ou des répertoires
+OPENFILES : Permet d’afficher ou de séparer des fichiers et des répertoires ayant été ouverts
+MSIEXEC : Installation de paquets .msi (les fichiers .msi sont également appelés fichiers Windows Installer)
+NET : Gestion et affichage de services réseau
+NETSH : Gérer et configurer les composantes du réseau via l’invite de commandes
+NETSTAT : Affichage des connexions TCP-IP et de leur statut
+PATH : Affichage ou définition du chemin de recherche pour le programme sélectionné
+PATHPING : Test de la connexion à une adresse IP sélectionnée
+PAUSE : Le fichier batch exécuté est arrêté et la console affiche le message « Appuyez sur n’importe quelle touche »
+PERFMON : Démarrage de l’écran de performance sous Windows
+PING : Permet de tester la connexion à un autre appareil
+PRINT : Impression d’un fichier texte
+PROMPT : Modification de l’invite de commandes (par ex. « Bonjour ! » au lieu de « Appuyez sur n’importe quelle touche »)
+RD : Suppression d’un répertoire
+RECOVER : Permet de restaurer des fichiers lisibles d’un disque endommagé
+REG : Permet d’ajouter, de lire, d’importer ou d’exporter des entrées dans le registre
+REGSVR32 : Les fichiers .dll et .ocx ou les bibliothèques de programmes peuvent être enregistrés dans le registre
+REM : Toutes les commandes venant après rem sont considérés comme des commentaires par la console
+RENAME : Cette commande permet de renommer des fichiers
+REPLACE : Cette commande permet de remplacer ou d’écraser des fichiers
+RESET SESSION : reset permet de séparer des sessions
+RMDIR : Suppression d’un répertoire
+RD : Suppression d’un répertoire
+SCHTASKS : Les tâches planifiées sur l’ordinateur actuel ou sur un ordinateur situé à distance peuvent être créées, modifiées, exécutées et terminées
+SECEDIT : Permet de comparer les autorisations à l’aide de modèles afin de vérifier la sécurité du système
+SET : Permet de lire et supprimer des variables dans l’invite de commandes
+SHUTDOWN : Permet de fermer la session, de redémarrer l’ordinateur ou de l’éteindre
+SORT : Trie la version actuelle d’un fichier lu ou d’une saisie standard
+START : Permet de démarrer certaines fenêtres, certains programmes ou certaines commandes
+SUBST : Cette commande permet d’attribuer à un chemin une lettre de disque (par ex. « C: »)
+SYSTEMINFO : Permet d’interroger les informations sur la configuration du système de l’ordinateur
+TASKKILL : Est utilisé pour mettre immédiatement fin à des processus actifs
+TASKLIST : Interroge l’ensemble des tâches et processus actifs
+TCMSETUP : Permet de configurer le client du téléphone
+TIME : Réglage et affichage de l’heure du système
+TIMEOUT : Il est possible de paramétrer un intervalle de temps au choix pendant lequel rien ne se passe
+TITLE : Permet de modifier le titre de la fenêtre de l’invite de commandes
+TREE : Affichage graphique de la structure du classeur
+TYPE : Permet d’afficher le contenu des fichiers texte
+VER : Permet d’afficher la version actuelle du système d’exploitation
+VERIFY : Vérifie si les fichiers sont correctement écrits sur un disque
+VOL : Permet d’afficher la désignation et le numéro de série d’un disque
+XCOPY : Effectue la sauvegarde d’un répertoir par exemple [C:\RépertoireC:\Back-up-répertoire /m /e /y] où 
+- /m : garantit la copie des fichiers actualisés uniquement, de sorte que les fichiers déjà sauvegardés ne soient pas à nouveau copiés lors des procédures de sauvegarde suivantes.
+- /e : indique que la sauvegarde concerne également l’ensemble des sous-répertoires d’un répertoire donné.
+- /y : inhibe la demande de confirmation d’écrasement d’un fichier cible existant (dans lequel les modifications ont été effectuées depuis la dernière sauvegarde).
